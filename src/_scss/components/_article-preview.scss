@@ -1,0 +1,26 @@
+.article-preview {
+  margin-bottom: 30px;
+  @include tablet {
+    display: flex;
+  }
+  .title {
+    font-size: $baseFontSize;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+  }
+  article {
+    margin-bottom: 21px;
+    width: 100%;
+    @include tablet {
+      &:nth-child(odd) {
+        padding-right: 10px;
+      }
+      &:nth-child(even) {
+        padding-left: 10px;
+      }
+    }
+  }
+  img {
+    margin-bottom: 12px;
+  }
+}

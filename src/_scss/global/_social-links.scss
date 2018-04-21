@@ -1,0 +1,25 @@
+.social-links {
+
+  ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    @include tablet {
+      justify-content: flex-start;
+    }
+  }
+
+  li {
+    margin-right: 14px;
+  }
+
+  a {
+    color: $link;
+  }
+  
+  .icon {
+    display: block;
+    width: 39px;
+    height: 39px;
+  }
+}

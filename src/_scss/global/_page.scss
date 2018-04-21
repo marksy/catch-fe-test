@@ -1,0 +1,21 @@
+.main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  min-width: $mobile-width;
+  max-width: $tablet-width;
+  @include tablet {
+    padding: 0;
+  }
+}
+
+.hr {
+  border: 1px dashed $fieldBorderColor;
+  &_mini {
+    max-width: 170px;
+    margin-bottom: 40px;
+    @include tablet {
+      margin-bottom: 60px;
+    }
+  }
+}

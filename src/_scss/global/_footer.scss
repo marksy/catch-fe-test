@@ -1,0 +1,37 @@
+footer {
+  border-top: 1px solid $footerBorder;
+  background-color: $footer;
+  padding: 60px 0;
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include tablet {
+      flex-direction: row-reverse;
+    }
+  }
+
+  p {
+    text-align: center;
+    @include tablet {
+      text-align: left;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  @include tablet {
+    .social-links {
+      width: 60%;
+    }
+    .company-details {
+      width: 40%;
+    }
+  }
+}

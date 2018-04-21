@@ -1,0 +1,29 @@
+.dd-content {
+  position: absolute;
+  background-color: $footer;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba($black, 0.2);
+  z-index: 1;
+  width: 100%;
+  border: 1px solid $fieldBorderColor;
+  list-style-type: none;
+  padding: 0;
+  display: none;
+  @include tablet {
+    width: calc(100% - 10px);
+  }
+
+  &.show {
+    display: block;
+  }
+
+  a {
+    color: $primary;
+    display: block;
+    padding: 16px 20px;
+    text-decoration: none;
+    &:hover {
+      background-color: $white;
+    }
+  }
+}

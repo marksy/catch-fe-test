@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+p,
+button,
+form {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: $primary;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 70px;
+}
+
+.main-title {
+  color: $black;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 64px;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-size: $baseFontSize;
+  line-height: 18px;
+  margin-bottom: 12px;
+  letter-spacing: 0.23px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: $link;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

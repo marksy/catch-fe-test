@@ -1,0 +1,23 @@
+.btn {
+  border: 1px solid $primary;
+  border-radius: $radius;
+  font-size: $baseFontSize;
+  min-width: 270px;
+  padding: $spacing 0;
+
+  &_primary {
+    border-color: $buttonBorder;
+    background-color: $button;
+    color: $white;
+  }
+
+  &-submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .icon {
+      width: 13px;
+    }
+  }
+}

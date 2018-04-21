@@ -1,0 +1,10 @@
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 60px;
+}
+
+.thumb {
+  margin-right: 12px;
+  max-height: 174px;
+}

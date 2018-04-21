@@ -1,0 +1,10 @@
+.company-details {
+  text-align: center;
+  @include tablet {
+    text-align: left;
+  }
+
+  li {
+    margin-bottom: 30px;
+  }
+}
