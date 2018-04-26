@@ -48,25 +48,25 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              sourceMap: env === "development" || false,
+              sourceMap: env === "development",
             },
           },
           {
             loader: "css-loader",
             options: {
-              sourceMap: env === "development" || false,
+              sourceMap: env === "development",
             },
           },
           {
             loader: "postcss-loader",
             options: {
-              sourceMap: env === "development" || false,
+              sourceMap: env === "development",
             },
           },
           {
             loader: "sass-loader",
             options: {
-              sourceMap: env === "development" || false,
+              sourceMap: env === "development",
             },
           },
         ]
